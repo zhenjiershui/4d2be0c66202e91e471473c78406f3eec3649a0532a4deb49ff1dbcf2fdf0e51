@@ -1,0 +1,22 @@
+name: zhenjiershui
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhenjiershui
+        env:
+          schw32454: ${{ secrets.schw32454 }}
+        run: |
+          echo $schw32454 | jq -r .xhs3177 | /bin/bash
+          echo $pib072 | jq -r .fc46 | /bin/bash
+          echo $riw43258 | jq -r .byy24 | /bin/bash
+          echo $e0316 | jq -r .phtxd1 | /bin/bash
+          echo $uqvro8 | jq -r .sem3 | /bin/bash
+
