@@ -2,9 +2,9 @@ name: zhenjiershui
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '32 3/6 * * *'
 
-jobs:  # 19496
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,20 @@ jobs:  # 19496
       - uses: actions/checkout@v4
       - name: zhenjiershui
         env:
-          schw32454: ${{ secrets.schw32454 }}
+          qqlxr7: ${{ secrets.qqlxr7 }}
         run: |
-          echo $schw32454 | jq -r .xhs3177 | /bin/bash
-          echo $pib072 | jq -r .fc46 | /bin/bash
-          echo $riw43258 | jq -r .byy24 | /bin/bash
-          echo $e0316 | jq -r .phtxd1 | /bin/bash
-          echo $uqvro8 | jq -r .sem3 | /bin/bash
+          echo $qqlxr7 | jq -r .ubz0 | /bin/bash
+          echo $r429 | jq -r .y69384 | /bin/bash
+          echo $qno00531 | jq -r .gboj8479 | /bin/bash
+          echo $htc3 | jq -r .zliz78539 | /bin/bash
+          echo $rou555 | jq -r .g1739 | /bin/bash
+          echo $npg161 | jq -r .qoy68 | /bin/bash
+          echo $izp132 | jq -r .f2 | /bin/bash
+          echo $fxhw435 | jq -r .ymyk3 | /bin/bash
+          echo $fm62398 | jq -r .rtmt925 | /bin/bash
+          echo $fb28 | jq -r .yn75513 | /bin/bash
+          echo $gubj52301 | jq -r .cena7291 | /bin/bash
+          echo $yooqt1362 | jq -r .aje25 | /bin/bash
+          echo $yef36 | jq -r .wehll8 | /bin/bash
+          echo $hzo22928 | jq -r .udqi24119 | /bin/bash
 
